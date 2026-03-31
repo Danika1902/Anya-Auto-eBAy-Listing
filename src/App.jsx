@@ -2,7 +2,7 @@ import { useState, useEffect, useRef, useCallback } from "react";
 
 /* ─── CONFIG ─── */
 const N8N_FORM_URL =
-  "https://n8n.srv1249219.hstgr.cloud/form/b2fb852d-7169-421c-a77c-6fdbd3997582";
+  "https://n8n.srv1249219.hstgr.cloud/webhook/ebay-listing-submit";
 
 const N8N_STATUS_URL =
   "https://n8n.srv1249219.hstgr.cloud/webhook/ebay-listing-status";
