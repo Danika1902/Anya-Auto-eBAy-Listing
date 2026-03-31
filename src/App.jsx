@@ -225,7 +225,7 @@ export default function App() {
       );
       fd.append("Listing_ID", listingId);
 
-      await fetch(N8N_FORM_URL, { method: "POST", body: fd, mode: "no-cors" });
+      await fetch(N8N_FORM_URL, { method: "POST", body: fd,  });
 
       // 2. Register in status tracker API
       await statusAPI({
